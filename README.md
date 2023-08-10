@@ -29,6 +29,7 @@ To run this project locally, follow these steps:
 2. Click the "Add" button to add the task to your list.
 3. The added tasks will be displayed as bullet points.
 4. Mark completed with line-strike, just by clicking task.
+5. Again click will remove the striked-line.
 
 ## Tech Stack 💻
 
