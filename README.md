@@ -1,6 +1,6 @@
 # TodoList Project 📝
 
-![TodoList Screenshot](screenshots\Screenshot_1.png)
+![Screenshot_1](https://github.com/fixmanish/react-login/assets/131751286/5f2a6776-ef53-469d-8eb0-cc01bce85d90)
 
 A simple and beautiful TodoList project built as part of the Full Stack Web Development Bootcamp. The project showcases the use of JavaScript, HTML, and CSS for the frontend, and React for the backend.
 
@@ -38,8 +38,8 @@ To run this project locally, follow these steps:
 
 ## Screenshots 📷
 
-![Screenshot 1](screenshots\Screenshot_2.png)
-![Screenshot 2](screenshots\Screenshot_3.png)
+![Screenshot_2](https://github.com/fixmanish/react-login/assets/131751286/94e368f9-bc70-4203-bbe6-b25ceb03de8f)
+![Screenshot_3](https://github.com/fixmanish/react-login/assets/131751286/36aaa8c3-08b5-433d-b03a-31ddde3ee1a4)
 
 ## Acknowledgements 👏
 
