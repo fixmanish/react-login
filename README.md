@@ -25,11 +25,12 @@ To run this project locally, follow these steps:
 
 ## How to Use 📋
 
+![image](https://github.com/fixmanish/react-todo-list-V1-/assets/131751286/681826dc-efc6-4ec3-9fa6-a0875e12059f)
+
 1. Enter a task in the input field.
 2. Click the "Add" button to add the task to your list.
 3. The added tasks will be displayed as bullet points.
-4. Mark completed with line-strike, just by clicking task.
-5. Again click will remove the striked-line.
+4. Delete the item just by clicking on it.
 
 ## Tech Stack 💻
 

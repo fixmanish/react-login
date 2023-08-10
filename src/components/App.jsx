@@ -12,10 +12,18 @@ function App() {
   }
 
   function addTasks() {
-    setTaskList((task) => {
+    setTaskList(() => {
       return [...taskList, item];
     });
     setItem("");
+  }
+
+  function deleteItem(id) {
+    setTaskList((prevValue) => {
+      return prevValue.filter((eachItem, index) => {
+        return index !== id;
+      });
+    });
   }
 
   return (
@@ -31,8 +39,15 @@ function App() {
       </div>
       <div>
         <ul>
-          {taskList.map((addedItem) => {
-            return <Todoitems todoitem={addedItem} />;
+          {taskList.map((addedItem, index) => {
+            return (
+              <Todoitems
+                todoitem={addedItem}
+                onChecked={deleteItem}
+                key={index}
+                id={index}
+              />
+            );
           })}
         </ul>
       </div>
