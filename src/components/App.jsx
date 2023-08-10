@@ -1,4 +1,5 @@
 import React from "react";
+import Todoitems from "./todoitem";
 
 function App() {
   const [item, setItem] = React.useState("");
@@ -31,7 +32,7 @@ function App() {
       <div>
         <ul>
           {taskList.map((addedItem) => {
-            return <li>{addedItem}</li>;
+            return <Todoitems todoitem={addedItem} />;
           })}
         </ul>
       </div>
